@@ -7,7 +7,7 @@
 # ASPxGridView- How to conditionally enable and disable the batch editing on the client side
 
 
-<p>This example demonstrates how to conditionally enable or disable the editing on the client side. You can find detailed steps by clicking below the "Show Implementation Details" link .</p>
+<p>This example demonstrates how to conditionally enable or disable the editing on the client side.</p>
 <p><strong>See also:</strong><br><a href="https://www.devexpress.com/Support/Center/p/T150965">GridView - Batch Editing - How to conditionally enable and disable the editing on the client side</a></p>
 
 
