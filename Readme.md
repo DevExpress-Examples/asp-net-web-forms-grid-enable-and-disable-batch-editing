@@ -1,9 +1,9 @@
-# Grid View for ASP.NET Web Forms - How to control data editing on the client side in batch edit mode
+# Grid View for ASP.NET Web Forms - How to enable or disable the cell edit functionality in batch mode based on a condition
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/t150957/)**
 <!-- run online end -->
 
-This example demonstrates how to use the check box state to control data editing in the grid in batch edit mode.
+This example demonstrates how to use the check box state to enable or disable the grid's cell edit functionality in batch edit mode.
 
 ![Allow Edit Checkbox](controlEditing.gif)
 
@@ -23,7 +23,7 @@ Follow the steps below:
     </dx:ASPxGridView>
     ```
 
-2. Add a check box and handle its client-side [CheckedChanged](https://docs.devexpress.devx/AspNet/DevExpress.Web.ASPxCheckBox.CheckedChanged) event. In the handler, create a flag variable, get the current state of the check box, and assign this value to the flag variable.
+2. Add a check box and handle its client-side [CheckedChanged](https://docs.devexpress.devx/AspNet/DevExpress.Web.ASPxCheckBox.CheckedChanged) event. In the handler, create a flag variable, get the current state of the check box, and assign the state to the flag variable.
 
     ```aspx
     <dx:ASPxCheckBox ID="ASPxCheckBox1" runat="server" Text="Allow edit">
@@ -38,7 +38,7 @@ Follow the steps below:
     }
     ```
 
-3. Handle the grid's client-side [BatchEditStartEditing](https://docs.devexpress.devx/AspNet/js-ASPxClientGridView.BatchEditStartEditing), [BatchEditRowInserting](https://docs.devexpress.devx/AspNet/js-ASPxClientGridView.BatchEditRowInserting), and [BathEditRowDeleting](https://docs.devexpress.devx/AspNet/js-ASPxClientGridView.BatchEditRowDeleting) events. In the handler, cancel the current editing operation based on the flag variable value.
+3. Handle the grid's client-side [BatchEditStartEditing](https://docs.devexpress.devx/AspNet/js-ASPxClientGridView.BatchEditStartEditing), [BatchEditRowInserting](https://docs.devexpress.devx/AspNet/js-ASPxClientGridView.BatchEditRowInserting), and [BatchEditRowDeleting](https://docs.devexpress.devx/AspNet/js-ASPxClientGridView.BatchEditRowDeleting) events. In the handler, cancel the current edit operation based on the flag variable value.
 
     ```aspx
     <dx:ASPxGridView ID="ASPxGridView1" runat="server"  ...>
