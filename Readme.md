@@ -7,7 +7,7 @@ This example demonstrates how to use the check box state to control data editing
 
 ![Allow Edit Checkbox](controlEditing.gif)
 
-## OverView
+## Overview
 
 Follow the steps below:
 
