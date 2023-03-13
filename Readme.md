@@ -63,4 +63,4 @@ Follow the steps below:
 
 ## More Examples
 
-* [Grid View for ASP.NET MVC - How to control data editing on the client side in batch edit mode](https://github.com/DevExpress-Examples/gridview-how-to-conditionally-enable-and-disable-the-batch-editing-on-the-client-side-t150965)
+* [Grid View for ASP.NET MVC - How to enable or disable the cell edit functionality in batch mode based on a condition](https://github.com/DevExpress-Examples/gridview-how-to-conditionally-enable-and-disable-the-batch-editing-on-the-client-side-t150965)
