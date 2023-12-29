@@ -10,9 +10,6 @@
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxGridView- How to conditionally enable and disable the batch editing on the client side
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128533541/)**
-<!-- run online end -->
 
 
 <p>This example demonstrates how to conditionally enable or disable the editing on the client side. You can find detailed steps by clicking below the "Show Implementation Details" link .</p>
